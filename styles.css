@@ -1,0 +1,79 @@
+/* Configurações gerais */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #ffe5e5, #ffd1d1);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 390px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+}
+
+.header {
+  background: #ff6363;
+  color: #fff;
+  padding: 20px;
+  border-bottom: 3px solid #ff9e9e;
+}
+
+.header .subtitle {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.photo-section {
+  padding: 20px;
+  background: #fdf6f6;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.counter-section {
+  padding: 20px;
+  background: #ffecec;
+  border-top: 2px dashed #ffd1d1;
+  border-bottom: 2px dashed #ffd1d1;
+}
+
+.counter {
+  font-size: 1.5rem;
+  color: #ff6363;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.description-section {
+  padding: 20px;
+  background: #fff;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.footer {
+  padding: 15px;
+  background: #ff6363;
+  color: #fff;
+  font-size: 0.9rem;
+}
